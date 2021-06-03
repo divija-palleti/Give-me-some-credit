@@ -137,7 +137,7 @@ for i ,(x, y) in enumerate(train_loader):
     # print(correct, "c")
     total += s
 
-    print(total, "t")
+    # print(total, "t")
 
 x = torch.FloatTensor(x_train)
 output = net(x)
